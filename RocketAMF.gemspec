@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
 
   s.files         = Dir[*['README.rdoc', 'benchmark.rb', 'RocketAMF.gemspec', 'Rakefile', 'lib/**/*.rb', 'spec/**/*.{rb,bin,opts}', 'ext/**/*.{c,h,rb}']]
   s.test_files    = Dir[*['spec/**/*_spec.rb']]
-  s.extensions    = Dir[*["ext/**/extconf.rb"]]
   s.require_paths = ["lib"]
 
   s.has_rdoc         = true
